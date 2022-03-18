@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="./js/main.js" defer></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>Work To-Dos</h1>
+                <h2>Enter text into the input field to add items to your list.</h2>
+            </header>
+    
+            <main>
+                <input id="userInput" type="text" placeholder="Add an item...">
+                <button class="enter" id="addTask">Add to List</button>
+                <h1>Your Todo List:</h1>
+                <table id="todoTable">
+                    <tr><td>To get started, write a task in the space above then click "Add to List."</td></tr>
+                </table>
+                <br>
+                <button class="hide-task-button" id="hideTasks" disabled>Hide Completed</button>
+            </main>
+
+        </div>
+    </body>
+</html>
